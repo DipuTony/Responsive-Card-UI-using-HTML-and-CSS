@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.toptext{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.toptext .latest{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 10px;
+}
+.toptext .viewall{
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.toptext .slash{
+    color: #e0e0e0;
+    size: 34px;
+}
+.cards{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+    background-color: rgba(246, 247, 248, 1);
+    padding: 40px;
+}
+.card{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.simage{
+    width: 100px;
+    border-radius: 0px;
+    float: right;
+}
+.checked{
+    color: orange;
+    font-weight: bold;
+}
+.content{
+    text-align: left;
+    padding: 10px;
+}
+.price1{
+    font-weight: bolder;
+    color: black;
+    padding-right: 10px;
+}
+.content .slash{
+    color: #a8a8a8;
+    font-size: 10px;
+    /* padding-left: 10px; */
+}
+.price2{
+    text-decoration: line-through;
+    color: #a8a8a8;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.line{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #EBF3FD;
+    padding: 0px;
+    margin: 0px;
+    /* position: absolute; */
+    }
+.deal{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.content p{
+    margin-top: 10px;
+    color: #5c5c5c;
+}
+.content a{
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 17px;
+    padding: 5px 18px;
+    border-radius: 40px;
+    letter-spacing: 1.5px;
+}
+.content .title1{
+    font-size: 12px;
+}
+
+.content .title2{
+    font-weight: bolder;
+}
+.title3{
+    font-size: 14px;
+    color: black;
+}
+.block{
+    display: block;
+    position: absolute;
+    margin-top: -25px;
+    background: rgba(255,240,241,1);
+    color: black;
+    font-size: 14px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
